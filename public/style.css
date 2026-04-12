@@ -1,0 +1,154 @@
+#corpo {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(fundo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(37, 37, 37);
+}
+#barra-de-pesquisa {
+    width: 250px;
+    height: 20px;
+}
+#botao-de-pesquisa {
+    height: 26px;
+}
+#logo {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+header>div {
+    margin: 0 15px 0 15px;
+}
+#casa-icon {
+    height: 25px;
+    width: 25px;
+}
+#barra-de-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+    list-style: none;
+    padding: 0 40px 0 40px;
+}
+#bem-vindo {
+    margin: 0 0 30px 0;
+}
+#carrocel {
+    height: 100%;
+    width: 100%;
+}
+#bella-e-edward {
+    height: 386px
+}
+section {
+    margin: 40px 0 0 70px;
+    height: 460px;
+    width: 500px;
+}
+#conjunto {
+    display: flex;
+    justify-content: space-between;
+} 
+#indice-lista {
+    list-style: none;
+    padding: 0;
+    width: 120%;
+    margin-left: 20px;
+    padding-right: 30px;
+}
+#indice-titulo {
+    margin-left: 5px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#indice-simbolo {
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#sinopse-titulo {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 0 0 10px 0;
+    padding-top: 10px;
+}
+#sinopse-texto {
+    text-align: center;  
+    width: 90%; 
+    margin: auto;
+    padding-bottom: 28px;
+}
+#edwardebella {
+    height: 278px;
+    left: 878px;
+    position: absolute;
+}
+#indice {
+    display: flex;
+    background-color: rgb(37, 37, 37);
+}
+.bordas {
+    border: solid 2px;
+    border-color: white;
+}
+.borda-baixo {
+    border-bottom: solid 2px;
+    border-color: white;
+}
+#sinopse-inteira {
+    text-align: center;
+    width: 70%;
+    margin: 40px 0 0 50px;
+}
+#inicio {
+    width: fit-content;
+    text-align: center;
+    margin: 60px auto 0 auto;
+}
+.elementos {
+    color: white;
+}
+article {
+    display: flex;
+    justify-content: center;
+
+}
+#sinopse-cima {
+    background-color: rgb(37, 37, 37);
+}
+#botao-conta {  
+}
+footer {
+    height: 16vh;
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(37, 37, 37);
+}
+#rodape {
+    margin-left: 20px;
+}
+#rodape>input {
+    margin-bottom: 30px;
+}
+button {
+    height: 25px;
+}
