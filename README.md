@@ -9,7 +9,7 @@
 ## Print das telas criadas:
 
 
-![print da tela para desktop](./wiki_desktop.png)
+![print da tela para desktop](/public/wiki_desktop.png)
 
 
-![print da tela para mobile](./wiki_mobile.png)
+![print da tela para mobile](/public/wiki_mobile.png)
