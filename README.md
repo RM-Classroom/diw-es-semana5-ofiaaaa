@@ -6,7 +6,7 @@
 - Breve descrição sobre seu projeto: O projeto se trata de uma wiki da saga Crepúsculo, onde é possível encontrar informações e imagens sobre os livros, os filmes e os personagens da obra.
 
 
-## Print das telas criadas
+## Print das telas criadas:
 
 
 ![print da tela para desktop](wiki_desktop.png)
