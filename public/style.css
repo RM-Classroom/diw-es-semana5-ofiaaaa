@@ -1,224 +1,474 @@
-#corpo {
-    width: 50%;
-    background-color: rgb(0, 0, 0);
+@media screen and (min-width: 700px) {
+
+
+    #corpo {
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    body {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-image: url(fundo2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(37, 37, 37);
+    }
+
+    #barra-de-pesquisa {
+        width: 250px;
+        height: 20px;
+    }
+
+    #botao-de-pesquisa {
+        height: 26px;
+    }
+
+    #logo {
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    }
+
+    header>div {
+        margin: 0 15px 0 15px;
+    }
+
+    #casa-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    #barra-de-navegacao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 20px 0 20px;
+        list-style: none;
+        padding: 0 40px 0 40px;
+    }
+
+    #barra-de-navegacao a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #bem-vindo {
+        margin: 0 0 30px 0;
+    }
+
+    #carrocel {
+        height: 100%;
+        width: 100%;
+    }
+
+    #bella-e-edward {
+        height: 386px
+    }
+
+    section {
+        margin: 40px 0 0 117px;
+        height: 460px;
+        width: 500px;
+    }
+
+    #conjunto {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #indice-lista {
+        list-style: none;
+        padding: 0;
+        width: 120%;
+        margin-left: 20px;
+        padding-right: 30px;
+    }
+
+    #indice-titulo {
+        margin-left: 5px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
+
+    #indice-simbolo {
+        height: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #sinopse-titulo {
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 0 0 10px 0;
+        padding-top: 10px;
+    }
+
+    #sinopse-texto {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 28px;
+    }
+
+    #edwardebella {
+        width: 428px
+        
+    }
+
+    #indice {
+        display: flex;
+        background-color: rgb(37, 37, 37);
+    }
+
+    .bordas {
+        border: solid 2px;
+        border-color: white;
+    }
+
+    .borda-baixo {
+        border-bottom: solid 2px;
+        border-color: white;
+    }
+
+    #sinopse-inteira {
+        text-align: center;
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    #inicio {
+        width: fit-content;
+        text-align: center;
+        margin: 60px auto 0 auto;
+    }
+
+    .elementos {
+        color: white;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #sinopse-cima {
+        background-color: rgb(37, 37, 37);
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 40px;
+        background-color: rgb(37, 37, 37);
+    }
+
+    #rodape {
+        margin-left: 20px;
+    }
+
+    #rodape>input {
+        margin-bottom: 30px;
+    }
+
+    button {
+        height: 25px;
+    }
+
+    .personagens_principais {
+        width: 100%;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+    }
+    .personagens_principais p {
+        margin: 0;
+        width: 250px;
+    }
+
+
+    #blocos_personagens {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        margin-top: 40px;
+        padding: 0 20px 15px 20px;
+    }
+    .imagem_blocos {
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+    .blocos_titulo {
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    a{
+        color: white;
+    }
+
+    
 }
+@media screen and (max-width: 700px) {
 
-body {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-image: url(fundo2.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-}
+     #corpo {
+        background-color: rgb(0, 0, 0);
+    }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(37, 37, 37);
-}
+    body {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 0;
+    }
 
-#barra-de-pesquisa {
-    width: 250px;
-    height: 20px;
-}
+    header {
+        display: grid;
+        grid-template: 'logo botao_conta'
+                        'b_pesquisa botao_pesquisa';
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(37, 37, 37);
+        padding-bottom: 20px;
+    }
 
-#botao-de-pesquisa {
-    height: 26px;
-}
+    #barra-de-pesquisa {
+        width: 100%;
+        height: 20px;
+        grid-area: b_pesquisa;
+    }
 
-#logo {
-    font-family: "Imperial Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-}
+    #botao-de-pesquisa {
+        height: 26px;
+        grid-area: botao_pesquisa;
+    }
 
-header>div {
-    margin: 0 15px 0 15px;
-}
+    #botao-conta {
+    grid-area: botao_conta;
+    }
 
-#casa-icon {
-    height: 25px;
-    width: 25px;
-}
+    #logo {
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        grid-area: logo;
+    }
 
-#barra-de-navegacao {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 20px 0 20px;
-    list-style: none;
-    padding: 0 40px 0 40px;
-}
+    header>div {
+        margin: 0 15px 0 15px;
+    }
 
-#barra-de-navegacao a{
-    color: white;
-    text-decoration: none;
-}
+    #casa-icon {
+        height: 25px;
+        width: 25px;
+    }
 
-#bem-vindo {
-    margin: 0 0 30px 0;
-}
+    #barra-de-navegacao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        list-style: none;
+        padding: 0 40px 0 0px;
+    }
 
-#carrocel {
-    height: 100%;
-    width: 100%;
-}
+    #barra-de-navegacao li{
+        margin: 0 5px;
+    }
 
-#bella-e-edward {
-    height: 386px
-}
+    #barra-de-navegacao a{
+        color: white;
+        text-decoration: none;
+    }
 
-section {
-    margin: 40px 0 0 70px;
-    height: 460px;
-    width: 500px;
-}
+    #bem-vindo {
+        margin: 0 0 30px 0;
+    }
 
-#conjunto {
-    display: flex;
-    justify-content: space-between;
-}
+    #carrocel {
+        height: 100%;
+        width: 100%;
+    }
 
-#indice-lista {
-    list-style: none;
-    padding: 0;
-    width: 120%;
-    margin-left: 20px;
-    padding-right: 30px;
-}
+    #bella-e-edward {
+        width: 100%;
+    }
 
-#indice-titulo {
-    margin-left: 5px;
-    padding-right: 30px;
-    font-size: 20px;
-}
+    section {
+        height: 460px;
+        width: 100%;
+        margin-top: 40px;
+    }
 
-#indice-simbolo {
-    height: 15px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
+    #conjunto {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+    }
 
-#sinopse-titulo {
-    font-family: "Imperial Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    margin: 0 0 10px 0;
-    padding-top: 10px;
-}
+    #indice-lista {
+        list-style: none;
+        padding: 0;
+        width: 120%;
+        margin-left: 20px;
+        padding-right: 30px;
+    }
 
-#sinopse-texto {
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    padding-bottom: 28px;
-}
+    #indice-lista li{
+        margin-left: 0;
+    }
+    
 
-#edwardebella {
-    height: 278px;
-    left: 878px;
-    position: absolute;
-}
+    #indice-titulo {
+        margin-left: 5px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
 
-#indice {
-    display: flex;
-    background-color: rgb(37, 37, 37);
-}
+    #indice-simbolo {
+        height: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
-.bordas {
-    border: solid 2px;
-    border-color: white;
-}
+    #sinopse-titulo {
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 0 0 10px 0;
+        padding-top: 10px;
+    }
 
-.borda-baixo {
-    border-bottom: solid 2px;
-    border-color: white;
-}
+    #sinopse-texto {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 28px;
+    }
 
-#sinopse-inteira {
-    text-align: center;
-    width: 70%;
-    margin: 40px 0 0 50px;
-}
+    #edwardebella {
+        width: 100%;
+    }
 
-#inicio {
-    width: fit-content;
-    text-align: center;
-    margin: 60px auto 0 auto;
-}
+    #indice {
+        display: flex;
+        background-color: rgb(37, 37, 37);
+    }
 
-.elementos {
-    color: white;
-}
+    .bordas {
+        border: solid 2px;
+        border-color: white;
+    }
 
-article {
-    display: flex;
-    justify-content: center;
+    .borda-baixo {
+        border-bottom: solid 2px;
+        border-color: white;
+    }
 
-}
+    #sinopse-inteira {
+        text-align: center;
+        width: 85%;
+        margin: 40px 0  50px;
+        
+    }
 
-#sinopse-cima {
-    background-color: rgb(37, 37, 37);
-}
+    #inicio {
+        width: fit-content;
+        text-align: center;
+        margin: 60px auto 0 auto;
+    }
 
-#botao-conta {}
+    .elementos {
+        color: white;
+    }
 
-footer {
-    width: 100%;
-    margin-top: 40px;
-    background-color: rgb(37, 37, 37);
-}
+    article {
+        display: flex;
+        justify-content: center;
 
-#rodape {
-    margin-left: 20px;
-}
+    }
 
-#rodape>input {
-    margin-bottom: 30px;
-}
+    #sinopse-cima {
+        background-color: rgb(37, 37, 37);
+    }
 
-button {
-    height: 25px;
-}
+    footer {
+        width: 100%;
+        margin-top: 40px;
+        background-color: rgb(37, 37, 37);
+    }
 
-.personagens_principais {
-    width: 100%;
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    align-items: end;
-}
-.personagens_principais p {
-    margin: 0;
-    width: 250px;
-}
+    #rodape {
+        margin-left: 20px;
+    }
+
+    #rodape>input {
+        margin-bottom: 30px;
+    }
+
+    button {
+        height: 25px;
+    }
+
+    .personagens_principais {
+        width: 100%;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: end;
+    }
+    .personagens_principais p {
+        margin: auto;
+        width: 250px;
+
+    }
 
 
-#blocos_personagens {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    margin-top: 40px;
-    padding: 0 20px 15px 20px;
-}
-.imagem_blocos {
-    width: 250px;
-    margin: 0 auto;
+    #blocos_personagens {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;  
+        margin-top: 40px;
+        padding: 0 20px 15px 20px;
+    }
+    .imagem_blocos {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 10px;
 
-}
-.blocos_titulo {
-    font-family: "Imperial Script", cursive;
-    font-weight: 400;
-    font-size: 40px;
-}
+    }
+    .blocos_titulo {
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-size: 40px;
+    }
 
-a{
-    color: white;
+    a{
+        color: white;
+    }
+
+    .texto_personagens {
+        text-align: center;
+    }
 }
